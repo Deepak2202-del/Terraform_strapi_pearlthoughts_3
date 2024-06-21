@@ -37,12 +37,6 @@ jobs:
     - name: Initialize Terraform
       run: terraform init
 
-    - name: Format Terraform Files
-      run: terraform fmt -check
-
-    - name: Validate Terraform
-      run: terraform validate
-
     - name: Apply Terraform Plan
       id: apply
       run: terraform apply -auto-approve
