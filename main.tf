@@ -1,9 +1,9 @@
 resource "aws_instance" "strapi" {
   ami                         = "ami-04b70fa74e45c3917"
   instance_type               = "t2.medium"
-  subnet_id              = "subnet-0c724a9e1beb09e35"
+  subnet_id              = "subnet-044d40eecd44ded84"
   vpc_security_group_ids = [aws_security_group.strapi_sg.id]
-  key_name = "thepair"
+  key_name = "PearlThoughts_N.Virginia_key"
   associate_public_ip_address = true
   user_data                   = <<-EOF
                                 #!/bin/bash
