@@ -2,7 +2,7 @@ resource "aws_security_group" "strapi_sg" {
   name        = "ec2-SG-stap"
   description = "Strapi"
 
-  vpc_id = "vpc-028e6aa2ad524bbab" # Replace with your VPC ID
+  vpc_id = "vpc-06f8a182e879ab573" # Replace with your VPC ID
 
   // Inbound rules (ingress)
   ingress {
