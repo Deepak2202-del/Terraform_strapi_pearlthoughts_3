@@ -44,6 +44,4 @@ jobs:
         TF_VAR_key_name: ${{ secrets.AWS_KEY_PAIR_NAME }}
 
    
-      
-
-
+    
