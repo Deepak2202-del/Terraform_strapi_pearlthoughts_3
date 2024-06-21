@@ -45,4 +45,5 @@ jobs:
 
     - name: Output EC2 Public IP
       run: echo "Strapi EC2 Public IP
+      
 
